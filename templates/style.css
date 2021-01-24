@@ -1,0 +1,256 @@
+@font-face {
+ font-family: "PFDinCondensedMedium";
+ src:   url("fonts/PFDinCondensedMedium.ttf") format("truetype");
+}
+@font-face {
+ font-family: "PFDinCondensedRegular";
+ src:   url("fonts/PFDinCondensedRegular.ttf") format("truetype");
+}
+@font-face {
+ font-family: "PTSerifRegular";
+ src:   url("fonts/PTSerifRegular.ttf") format("truetype");
+}
+@font-face {
+ font-family: "ReformaGroteskBoldC";
+ src:   url("fonts/ReformaGroteskBoldC.otf") format("opentype");
+}
+@font-face {
+ font-family: "ReformaGroteskDemiC";
+ src:   url("fonts/ReformaGroteskDemiC.otf") format("opentype");
+}
+@font-face {
+ font-family: "try";
+ src:   url("fonts/try.ttf") format("truetype");
+}
+
+@font-face {
+ font-family: "PT Serif";
+ src: local("PT Serif");
+}
+
+.wine_dis_name {
+  vertical-align: top;
+  text-transform: uppercase;
+  font-family: 'ReformaGroteskDemiC';
+  font-size: 15pt;
+  color:#a22554;
+  line-height: 17pt;
+   text-align: justify;
+   margin:1mm;
+
+
+}
+
+@page{
+  size:'A4';
+  margin:12mm;
+
+}
+
+@media print{
+  .page{
+    page-break-after: always;
+  }
+}
+
+.wine_dis_name{
+  vertical-align: top;
+  text-transform: uppercase;
+  font-family: 'ReformaGroteskDemiC';
+  font-size: 15pt;
+  color:#a22554;
+  line-height: 17pt;
+ text-align: justify;
+}
+
+ .wine_dis_text{
+   text-align: justify;
+   font-family: 'PT Serif';
+   font-size: 9pt;
+   vertical-align: top;
+   line-height: 12pt;
+   padding-bottom: 12pt;
+   padding-top: 8pt;
+ }
+ .double_row {
+
+ }
+ .wine_dis{
+   width: 100%;
+   table-layout: fixed;
+ }
+ .wine_dis td{
+   vertical-align: top;
+   height:50%;
+ }
+
+ .wine_dis {
+   border-collapse: collapse;
+   border-style: hidden;
+   height:100%
+ }
+
+.sixth_row{
+  border-collapse: collapse;
+}
+
+
+.sixth_row .top {
+  border: 1px solid grey;
+  border-top:none!important;
+  padding-bottom: 12pt;
+
+}
+.sixth_row .bottom {
+  border: 1px solid grey;
+  border-bottom:none!important;
+  padding-top: 3pt;
+}
+
+.sixth_row .left {
+  border: 1px solid grey;
+  border-left:none!important;
+
+}
+.sixth_row .right {
+  border: 1px solid grey;
+  border-right:none!important;
+
+}
+
+.third_row{
+  border-collapse: collapse;
+}
+.spacing{
+  border: none!important;
+
+}
+
+.third_row .top {
+  border: 1px solid grey;
+  border-top:none!important;
+  padding-bottom: 10pt;
+
+}
+.third_row .bottom {
+  border: 1px solid grey;
+  border-bottom:none!important;
+  padding-top: 3pt;
+
+}
+
+.third_row .left {
+  border: 1px solid grey;
+  border-left:none!important;
+
+}
+.third_row .right {
+  border: 1px solid grey;
+  border-right:none!important;
+
+}
+ .wine_dis  td, .wine_dis th {
+   border: 1px solid grey;
+ }
+
+ .double_row tr:nth-child(even){
+   border:none;
+   font-family: 'PT Serif';
+   font-size: 8pt;
+   line-height: 10pt;
+ }
+ .double_row tr:nth-child(odd){
+   border:none;
+   font-family: 'ReformaGroteskDemiC';
+   font-size: 13pt;
+   line-height: 10pt;
+ }
+ .double_row tr:nth-child(even) td{
+  padding-top: 0.5em;
+   padding-bottom: 0.5em;
+   padding-left: 0.5em;
+ }
+ .double_row tr:nth-child(odd) td{
+   padding-left: 0.3em;
+   padding-top: 0.3em;
+ }
+ .double_row td{
+   border:none;
+
+ }
+
+ .top_table .wine_dis_text {
+   padding-bottom: 1em;
+   padding-top: 1em;
+ }
+
+
+
+ .logo{
+   margin-left: 74%;
+   width:5cm;
+   height:1cm;
+ }
+ .logo img{
+width: 100%;
+ }
+
+ .main_img img{
+width: 100%;
+ }
+
+.first_row{
+  margin-top: 5mm;
+}
+
+ .set_name{
+   /*text-transform: uppercase;*/
+   font-family: 'ReformaGroteskDemiC';
+   font-size: 30pt;
+   color:black;
+   margin-top: -0.05em;
+   font-weight: normal;
+ }
+
+ .set_short_dis{font-family: 'PT Serif';font-size: 14pt;margin-top: -1.2em;}
+ .set_long_dis{
+   font-family: 'PT Serif';
+   font-size: 12pt;
+
+ }
+
+
+ .wine_color {
+   width:7cm;
+   table-layout: fixed;
+   margin-top:-3mm;
+   margin-bottom:-3mm;
+ }
+ .wine_color td{
+   overflow: hidden;
+
+ }
+ .wine_color div{
+
+
+ }
+ .wine_color img{
+   width:1.3cm;
+ }
+
+ .spacing{
+   width:8mm;
+ }
+ table{
+   table-layout: fixed;
+   width:100%;
+   vertical-align: top;
+ }
+
+ td{
+   vertical-align: top;
+ }
+
+ .third_row{
+   margin-bottom: 1cm;
+ }
