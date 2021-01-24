@@ -40,8 +40,8 @@ def html_to_pdf():
     global URL
     global SET
 
-    USERNAME='nsh@invisible.ru'
-    PASSWORD='IlovevIne4101'
+    USERNAME='yourworkingemail@invisible.ru'
+    PASSWORD='password'
 
 
     url_l= re.compile('/product/([a-zA-Z0-9-_].*/+)')
