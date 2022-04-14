@@ -465,19 +465,5 @@ while True:
         data = r.json()
         return data['data']
 
-    '''mydb = mysql.connector.connect(
-      host="88.212.254.18",
-      user="nikita",
-      passwd="iph7Aen8aediM4rahjaiSuoH",
-      database="invisible2"
-    )
-
-    global T_choose_amount
-    T_choose_amount = Text(root, height=1, font="Arial, 8")
-    T_choose_amount.pack()
-    start_button = Button(root, text="Выполнить", command = html_to_pdf)
-    start_button.pack(side=RIGHT)
-    root.mainloop()
-'''
     html_to_pdf()
     print("Yup!")
